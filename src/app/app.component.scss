@@ -1,0 +1,123 @@
+.top{
+  width: 100%;
+  height: 20%;
+  margin: 0, auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(58, 53, 47);
+}
+.bottom{
+  width: 100%;
+  height: 80%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(199, 230, 230);
+}
+#calculator{
+  display: grid;
+  gap: 6%;
+  justify-content: center;
+  border: 2px solid black;
+  padding: 2% 1% 2% 1%;
+  background-color: rgb(182, 26, 158);
+}
+input[type=ip]{
+  background-color: rgb(248, 244, 244);
+  text-align: right;
+  color:#000;
+  font-size: 100%;
+  padding: 3%;
+  width: 90%;
+  margin-left: 4px;
+  box-shadow: 0px 15px 10px -15px #111;
+}
+.keyboard{
+  display: flex;
+  justify-content: center;
+
+}
+#colum1{
+  display: grid;
+  gap: 1%;
+}
+#colum2{
+  margin-left: 10px;
+  // display: grid;
+  // gap: 2%;
+}
+#row21{
+  display: flex;
+}
+#row22{
+  display: flex;
+}
+#row23{
+  display: flex;
+}
+#row24{
+  display: flex;
+}
+#colum3{
+  margin-left: 10px;
+  // display: grid;
+  // gap: 1%;
+}
+#row31{
+  display: flex;
+}
+#row32{
+  display: flex;
+}
+#row33{
+  display: flex;
+}
+
+button[type=button1]{
+  width: 50px;
+  height: 78px;
+}
+button[type=button]{
+  width: 50px;
+  height: 60px;
+  color: #ffff;
+  background-color: rgb(29,29,29);
+  border-radius: 8%;
+}
+button[type=button1]{
+  color: #ffff;
+  border-radius: 8%;
+}
+button[type=button2]{
+  width: 50px;
+  height: 80px;
+  color: #ffff;
+  background-color: rgb(29,29,29);
+  border-radius: 6%;
+}
+button[type=button]:hover{
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+button[type=button1]:hover{
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+button[type=button2]:hover{
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388;
+}
+
+
+// .example-spacer {
+//   flex: 1 1 auto;
+// }
